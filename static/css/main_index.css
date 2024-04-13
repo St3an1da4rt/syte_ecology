@@ -1,0 +1,204 @@
+main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+}
+
+body::-webkit-scrollbar { width: 0; }
+
+.info_plus {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: calc(100vw - 20px);
+    max-width: 1000px;
+    border-radius: 20px;
+    margin: 20px 0px;
+    padding: 30px;
+    background-color:#444;
+    gap: 10px;
+}
+
+.two, .four{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-self: start;
+    gap: 20px;
+}
+
+.one, .three, .five {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-self: end;
+    gap: 20px;
+}
+
+.plus-image {
+    position: relative;
+    width: 10vw;
+    height: 10vw;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    /* min-width: 200px;
+    min-height: 190px; */
+    max-width: 190px;
+    max-height: 180px;
+}
+
+.one .plus-image {
+    background-image: url(../img/загрязнение.png);
+    background-color: #beff3b;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.two .plus-image {
+    background-image: url(../img/деньги.png);
+    background-color: #beff3b;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.three  .plus-image {
+    background-image: url(../img/переработка.png);
+    background-color: #beff3b;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.four .plus-image {
+    background-image: url(../img/загрязнение.png);
+    background-color: #beff3b;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.five .plus-image {
+    background-image: url(../img/загрязнение.png);
+    background-color: #beff3b;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.plus-text {
+    height: 100%;
+    max-width: 40vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Geologica", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-size: 20px;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "CRSV" 0,
+        "SHRP" 0;
+    text-decoration: none;
+    color: #000;
+}
+
+.one .plus-text, .three .plus-text, .five .plus-text {
+    display: flex;
+    
+}
+
+.add_plus {
+    padding: 20px;
+    position: relative;
+    background-color: #beff3b;
+    box-shadow: 0px 0px 5px #000;
+    border-radius: 10px;
+    /* width: 50vw; */
+}
+
+
+
+.two_quastion {
+    width: 100vw;
+    display: grid;
+    position: relative;
+    flex-direction: row;
+    grid-template-columns: 1fr 1fr;
+    background-color: #444;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 20px;
+}
+
+.two_quastion .block_main_quastion {
+    padding: 20px;
+    color: #fff;
+    background-color: #333;
+    border-top-left-radius: 10px;
+    border-right: 5px solid #000;
+    border-bottom: 5px solid #000;
+    box-shadow: 0px 5px 10px #000;
+}
+
+.block_second_quastion {
+    color: #fff;
+    text-shadow: 0px 0px 3px #fff;
+}
+
+.image_util {
+    width: 100vw;
+    
+    /* background-image: url(../img/утилизация.jpg);
+    background-size: contain;
+    height: 400px; */
+}
+
+.image_util img {
+    width: 100vw;
+}
+
+.ttwo_quastion {
+    width: 100vw;
+    display: grid;
+    position: relative;
+    flex-direction: row;
+    grid-template-columns: 1fr 1fr;
+    background-color: #444;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 20px;
+}
+
+.ttwo_quastion .block_main_quastion {
+    padding: 20px;
+    padding-top: 0px;
+    border-left: 5px solid #000;
+    border-top: 5px solid #000;
+    box-shadow: 0px -7px 10px #000;
+    color: #fff;
+    background-color: #333;
+    border-bottom-right-radius: 10px;
+}
+
+.block_second_quastion {
+    color: #fff;
+    text-shadow: 0px 0px 3px #fff;
+}
+
+.image_util {
+    width: 100vw;
+    /* background-image: url(../img/утилизация.jpg);
+    background-size: contain;
+    height: 400px; */
+}
+
+.image_util img {
+    width: 100vw;
+}

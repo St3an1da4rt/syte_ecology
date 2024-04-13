@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Сайт Раздельный Сбор</title>
+        <link rel="stylesheet" href="../static/css/header.css">
+        <link rel="stylesheet" href="../static/css/normalize.css">
+        <link rel="stylesheet" href="../static/css/map.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arbutus&family=Bevan:ital@0;1&family=Geologica:wght@100..900&display=swap" rel="stylesheet">
+        <script defer src="../js/burger.js"></script>
+        <script defer src="../js/map.js"></script>
+        <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript"></script>
+    </head>
+    <body>
+        <div class="body-wraper">
+            <header class="header open">
+                <div class="container header__container">
+                    <a href="../template/index.html" target="_self" class="logo">
+                        Раздельный сбор - Югра<!-- <img class="logo__img" src="/img/logo.svg" alt="Логотип"> -->
+                    </a>
+    
+                    <button class="header__burger-btn" id="burger">
+                        <span></span><span></span><span></span>
+                    </button>
+    
+                    <nav class="menu" id="menu">
+                        <ul class="menu__list">
+                            <!-- <li class="menu__item">
+                                <a class="menu__link" target="_self" href="../">
+                                    Точки сбора
+                                </a>
+                            </li> -->
+                            <li class="menu__item">
+                                <a class="menu__link" href="#" target="_self">
+                                    Карта
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="../template/register.html" target="_self">
+                                    Зарегистрироваться
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="../template/login.html" target="_self">
+                                    Войти
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <main>
+                <div class="map" id="map"></div>
+            </main>
+        </div>
+        
+    </body>
+</html>
